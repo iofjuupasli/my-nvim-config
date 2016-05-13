@@ -28,5 +28,7 @@ let g:used_javascript_libs = 'react,ramda'
 
 let g:nerdtree_tabs_open_on_console_startup = 1
 nnoremap <C-Bslash> :NERDTreeFocusToggle<CR>
+nnoremap <A-Bslash> :NERDTreeTabsToggle<CR>
 let g:NERDTreeMapActivateNode='l'
 let g:NERDTreeMapCloseDir='h'
+let g:NERDTreeMinimalUI=1
