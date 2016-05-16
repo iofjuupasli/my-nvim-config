@@ -46,3 +46,7 @@ nnoremap <unique> <A-0> 10gt
 nnoremap <C-c> :noh<CR>
 
 nmap <C-S-e> <Plug>(easymotion-overwin-w)
+
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul
+ino <C-C> <Esc>
