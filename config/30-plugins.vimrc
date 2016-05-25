@@ -32,3 +32,8 @@ nnoremap <A-Bslash> :NERDTreeTabsToggle<CR>
 let g:NERDTreeMapActivateNode='l'
 let g:NERDTreeMapCloseDir='h'
 let g:NERDTreeMinimalUI=1
+
+
+let g:TasksMarkerBase = 'O'
+let g:TasksMarkerDone = 'V'
+let g:TasksMarkerCancelled = 'X'

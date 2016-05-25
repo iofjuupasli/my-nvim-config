@@ -1,6 +1,7 @@
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'chriskempson/base16-vim'
+Plug 'irrationalistic/vim-tasks'
 Plug 'benekastah/neomake'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
